@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <!-- <script src="../p5.js"></script>
+   <script src="../addons/p5.sound.js"></script>  -->
+  <script src="sketch.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+  <!-- Require the peer dependencies of pose-detection. -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+
+  <!-- You must explicitly require a TF.js backend if you're not using the TF.js union bundle. -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+  <!-- Alternatively you can use the WASM backend: <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm/dist/tf-backend-wasm.js"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
+  <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+
+</head>
+
+<body>
+  <main>
+    <!-- uncomment to calculate ground truth values with a pixel tool (like MPos)-->
+    <!-- <video class='video-js' data-setup='{"controls": true, "autoplay": false, "preload": "auto"}'> --> -->
+    <!-- <source src="videos/legs-6mph.mp4" /> -->
+    <!-- <source src="videos/legs-12mph_Trim.mp4" /> -->
+    <!-- <source src="videos/full-8mph_Trim.mp4" type="video/mp4" /> -->
+    <!-- </video> -->
+  </main>
+</body>
+
+</html>
